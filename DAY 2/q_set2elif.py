@@ -47,4 +47,44 @@ if(n%7 == 0):
 else:
     print("Not a multiple")
 
+# #White a program to check if a number is positive negative or zero.
+print("Enter any number n")
+n = int(input("enter n = "))
+if( n > 0 ):
+    print("positive")
+elif( n < 0 ):
+    print("negative")
+elif( n == 0 ):
+    print("zero")
+else:
+    print("Not defined")
+
+#Write a program to check the type of triange.
+print("Enter sides of triangle a b and c")
+a = int(input("enter a = "))
+b = int(input("enter b = "))
+c = int(input("enter c = "))
+if ( a == b and b == c and c == a ):
+    print("Trianbgle is equilateral")
+elif( a == b and c != a and c != b):
+    print("Triange is isosceles")
+elif( a != b and b != c and c != a):
+    print("triangle is scelen")
+else:
+    print("Not defined")
+
+# Write a program to calculate electricity bill where 5 rupees for first 100 then 7 rupees for more than 100 to 200 then10 for next 100 units.
+print("Enter number is unit u")
+u = int(input("enter n = "))
+if( u <= 100 ):
+    print(u*5)
+elif( 200 >= u >= 101):
+    print((100*5)+(u-100)*7)
+elif( 201 <= u ):
+    print((100*5)+(100*7)+(u-200)*10)
+else:
+    print("bill is zero")
+
+
+
 
