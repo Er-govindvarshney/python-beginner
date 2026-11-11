@@ -40,3 +40,10 @@ slc3 = str[10:16]
 print(slc1)
 print(slc2)
 print(slc3)
+
+#Slicing using negative integers.
+str = "PYTHON BEGINNER"
+slc1 = str[-12:-1]
+slc2 = str[-10:-8]
+print(slc1)
+print(slc2)
