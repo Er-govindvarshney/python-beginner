@@ -28,4 +28,7 @@ sen = str(input("sentence : "))
 sen1 = sen.count("the")
 print(sen1)
 
-# 
+#Replace all the spaces with "_" in " I love programming . "
+str = " I love programming . "
+str1 = str.replace(" " , "_")
+print(str1)
